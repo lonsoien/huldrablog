@@ -1,0 +1,44 @@
+//@font-face {
+//    font-family: "Raleway";
+//    src: url("../Raleway/Raleway-Light.ttf");
+//  }
+
+
+body {
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+    "header header"
+    "main aside";
+    grid-template-rows: fit-content(40%); 
+    grid-template-columns: 150px 1fr;
+}
+
+header {
+    grid-area: header;
+    background-color: #8ca0ff;
+  }
+  
+aside {
+    grid-area: aside;
+    background-color: #ffa08c;
+}
+
+main {
+    grid-area: main;
+    background-color: #ffff64;
+  }
+
+main {
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: grid;
+    max-width: 800px;
+    padding: 20px;
+}
+

@@ -39,7 +39,7 @@ export default function SinglePost() {
           )}
           <p>By Louise Bellingmo</p>
 
-          <div className="">
+          <div className="singlepost-block">
             <BlockContent
               blocks={singlePost.body}
               projectId="5w9wd3qu"
@@ -47,8 +47,8 @@ export default function SinglePost() {
             />
           </div>
 
-          <button>
-            <Link to="/"> Back to Blogarticles </Link>
+          <button className="blog-btn">
+            <Link to="/"> Back to Blog articles </Link>
           </button>
         </section>
       )}
