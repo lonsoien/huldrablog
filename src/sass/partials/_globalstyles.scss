@@ -3,20 +3,24 @@
 //    src: url("../Raleway/Raleway-Light.ttf");
 //  }
 
-
-body {
-    display: grid;
-    width: 100%;
-    grid-template-areas:
-    "header aside"
-    "main aside";
-}
-
 //@media (min-width: 40em) {
 //    body {
 //        grid-template-columns: 12em 1fr;;
  //   }
 // }
+
+body {
+    display: grid;
+    max-width: 800px;
+//    justify-content: center;
+    // grid-template-columns: repeat(2, fit-content(12em) fit-content(10em));
+    grid-gap: 1em;
+    grid-template-areas:
+    "header aside"
+    "main aside"
+    "main aside"
+    "main aside";
+}
 
 header {
     grid-area: header;
@@ -35,12 +39,16 @@ main {
 
 main {
     display: grid;
-    grid-gap: 10px;
-    padding: 10px;
+    grid-template-columns: repeat(10, 6vw);
+    grid-gap: 2em;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
+article {
+    display: grid;
+    grid-column: span 4;
+    flex-wrap: wrap;
+}
+.card {
+    padding: 20px;
 }
 

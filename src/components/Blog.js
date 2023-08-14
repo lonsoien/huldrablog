@@ -27,8 +27,9 @@ export default function Blog() {
         <header>
      <h1>Huldrablog</h1>
      <div className="banner"></div>
+     <h2>Blog page</h2>
      </header>
-
+     
      <aside>
         <nav>navigation here</nav>
         <img src={selfie} alt="selfie louisebellingmo drawing" style={{width: "300px", height: "300px", borderRadius: "50%"}}></img>
@@ -49,17 +50,16 @@ export default function Blog() {
         <p>A short video imported here</p>
         <br/>
         </aside>
-
+       
         <main>
-        <h2>Blog page</h2>
-            <div className="container">
           {posts.map((post) => (
             <article key={post.slug.current}>
-              <img src={post.mainImage.asset.url} alt={post.title} style={{width: "400px", height: "100%"}} />
+                <div className="card">
+              <img src={post.mainImage.asset.url} alt={post.title} style={{width: "300px", height: "100%"}} />
               <Link to={`/${post.slug.current}`}> READ POST</Link>
+              </div>
             </article>
           ))}
-          </div>
       </main>
       </body>
     </>
