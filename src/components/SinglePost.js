@@ -24,9 +24,7 @@ export default function SinglePost() {
   return (
     <>
       {isLoading ? (
-        <h1 >
-          Loading...
-        </h1>
+        <h1 >  Loading...</h1>
       ) : (
         <section>
           <h1>{singlePost.title}</h1>

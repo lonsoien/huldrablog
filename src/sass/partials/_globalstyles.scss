@@ -8,11 +8,15 @@ body {
     display: grid;
     width: 100%;
     grid-template-areas:
-    "header header"
+    "header aside"
     "main aside";
-    grid-template-rows: fit-content(40%); 
-    grid-template-columns: 150px 1fr;
 }
+
+//@media (min-width: 40em) {
+//    body {
+//        grid-template-columns: 12em 1fr;;
+ //   }
+// }
 
 header {
     grid-area: header;
@@ -37,8 +41,6 @@ main {
 
 .container {
     display: flex;
-    flex-direction: grid;
-    max-width: 800px;
-    padding: 20px;
+    flex-direction: column;
 }
 
