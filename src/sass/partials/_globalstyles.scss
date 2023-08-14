@@ -11,13 +11,10 @@
 
 body {
     display: grid;
-    max-width: 800px;
-//    justify-content: center;
     // grid-template-columns: repeat(2, fit-content(12em) fit-content(10em));
     grid-gap: 1em;
     grid-template-areas:
     "header aside"
-    "main aside"
     "main aside"
     "main aside";
 }
@@ -29,18 +26,18 @@ header {
   
 aside {
     grid-area: aside;
-    background-color: #ffa08c;
+    max-width: 300px;
 }
 
 main {
     grid-area: main;
-    background-color: #ffff64;
   }
 
 main {
     display: grid;
-    grid-template-columns: repeat(10, 6vw);
-    grid-gap: 2em;
+    align-content: center;
+    grid-template-columns: repeat(8, 8vw);
+    grid-gap: 1em;
 }
 
 article {
