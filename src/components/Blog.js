@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import createClient from "../client"
 import Aside from "./Aside"; 
+import banner from "../images/huldra-banner.png";
 
 
 export default function Blog() {
@@ -25,9 +26,10 @@ export default function Blog() {
     <>
     <body>
         <header>
-     <h1>Huldrablog</h1>
-     <div className="banner"></div>
-     <h2>Blog page</h2>
+     <div className="banner">
+     <img src={banner} alt="huldrablog banner" />
+     </div>
+     <h1>by Louise</h1>
      </header>
        <Aside/>
         <main>

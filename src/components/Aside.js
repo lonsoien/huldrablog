@@ -6,8 +6,9 @@ export default function Aside() {
         <>
         <aside>
         <nav>navigation here</nav>
-        <img src={selfie} alt="selfie louisebellingmo drawing" style={{width: "200px", height: "215px", borderRadius: "50%"}}></img>
-        <button>About</button>
+        <img src={selfie} alt="selfie louisebellingmo drawing" className="selfie"></img>
+        <br/>
+        <button className="btn">About</button>
         <h2>I am Louise Bellingmo</h2>
         <p>This is my blog about lifestyle and my own pictures from nature.</p>
         <br/>

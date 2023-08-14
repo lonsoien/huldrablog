@@ -3,6 +3,11 @@
 //    src: url("../Raleway/Raleway-Light.ttf");
 //  }
 
+* {
+    margin: 1;
+    box-sizing: border-box;
+}
+
 body {
     display: grid;
     // grid-template-columns: repeat(2, fit-content(12em) fit-content(10em));
@@ -16,7 +21,6 @@ body {
 
 header {
     grid-area: header;
-    background-color: #8ca0ff;
 }
   
 aside {
