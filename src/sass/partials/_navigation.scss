@@ -1,0 +1,53 @@
+input {
+    display: none;
+}
+
+.navigation {
+    display: none;
+}
+
+.toggle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 0px;
+    background-color: #DFC8B6;
+    cursor: pointer;
+}
+
+.toggle .common {
+    position: absolute;
+    height: 3px;
+    background-color: white;
+    transition: 0.3s ease;
+}
+
+.toggle:hover {
+    background-color: black;
+}
+      
+.toggle .middle-line {
+    top: 35%;
+    left: 20%;
+    width: 65px;
+}
+
+.toggle .bottom-line {
+    top: 60%;
+    left: 30%;
+    width: 55px;
+}
+      
+.hamburger-menu:checked ~ .navigation {
+    display: block;
+}
+
+a p {
+    color: black;
+}
+
+a p:hover {
+    text-decoration: underline;
+}
+
+// @media (min-width: 0px) and (max-width: 700px) 

@@ -1,11 +1,13 @@
 import selfie from "../images/tegning-louie.JPG";
 import loreen from "../images/loreen.jpeg";
+import Navigation from "./Navigation";
+
 
 export default function Aside() {
     return (
         <>
         <aside>
-        <nav>navigation here</nav>
+        <Navigation />
         <img src={selfie} alt="selfie louisebellingmo drawing" className="selfie"></img>
         <br/>
         <button className="btn">About</button>

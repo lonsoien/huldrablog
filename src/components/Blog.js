@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import createClient from "../client"
 import Aside from "./Aside"; 
 import banner from "../images/huldra-banner.png";
+import Navigation from "./Navigation"; 
 
 
 export default function Blog() {
@@ -31,6 +32,7 @@ export default function Blog() {
      </div>
      <h1>by Louise</h1>
      </header>
+       <Navigation /> 
        <Aside/>
         <main>
           {posts.map((post) => (
