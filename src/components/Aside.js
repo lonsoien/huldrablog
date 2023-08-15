@@ -21,7 +21,7 @@ export default function Aside() {
         <h3>images from instagram here</h3>
         <img src={loreen} alt="loreen tattoo" style={{width: "250px", height: "200px"}}></img>
         <br/>
-        <button>Contact</button>
+        <button className="btn">Contact</button>
         <br/>
         <h3>Link to Portfolio</h3>
         <p>A short video imported here</p>

@@ -20,6 +20,7 @@ header {
   
 aside {
     grid-area: aside;
+    text-align: center;
     max-width: 300px;
 }
 
@@ -40,11 +41,14 @@ article {
     flex-wrap: wrap;
 }
 .card {
-    padding: 20px;
+    padding: 30px;
 }
 
 hr {
-    color: 2px #AAB2B5;
+    background-color: #AAB2B5;
+    height: 4px;
+    border: none;
+    margin-bottom: 5px;
 }
 
 @media (max-width: 800px) {
@@ -56,10 +60,11 @@ hr {
     "main main";
     }
     aside {
-        display: grid-column;
-       text-align: center;
-       align-items: center;
-    }
+    display: grid-column;
+    text-align: center;
+    align-items: center;
+ }
+
     main {
         display: flex;
         flex-direction: column;
