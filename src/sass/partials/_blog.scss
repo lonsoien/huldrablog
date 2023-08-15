@@ -1,14 +1,18 @@
 button {
+    font-family: 'Aboreto';
+    font-weight: 400;
     color: black;
     width: 140px;
     height: 40px;
     background-color: white;
     border-style: solid; 
     border-color: #AAB2B5;
-    text-decoration-skip:round($number: 9)
 }
 
 a {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 26px;
+    font-weight: 400;
     text-decoration: none;
     padding: 15px;
     margin: 15px;

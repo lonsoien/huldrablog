@@ -14,14 +14,14 @@ export default function Aside() {
         <br/>
         <p>This is my blog and more info will be added here in this text. </p>
         <br/>
-        <h2>Instagram</h2>
+        <h3>Instagram</h3>
         <hr/>
-        <h2>images from instagram here</h2>
+        <h3>images from instagram here</h3>
         <img src={loreen} alt="loreen tattoo" style={{width: "250px", height: "200px"}}></img>
         <br/>
         <button>Contact</button>
         <br/>
-        <h2>Link to Portfolio</h2>
+        <h3>Link to Portfolio</h3>
         <p>A short video imported here</p>
         <br/>
         </aside>

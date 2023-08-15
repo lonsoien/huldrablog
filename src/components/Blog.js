@@ -37,7 +37,7 @@ export default function Blog() {
             <article key={post.slug.current}>
                 <div className="card">
               <img src={post.mainImage.asset.url} alt={post.title} />
-              <Link to={`/${post.slug.current}`}> READ POST</Link>
+              <Link to={`/${post.slug.current}`}> Read Post ...</Link>
               <hr/>
               </div>
             </article>
