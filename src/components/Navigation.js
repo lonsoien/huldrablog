@@ -16,7 +16,7 @@ function Navigation() {
             </ul>
             </label>
             <br />
-            <div style={{height: "80px"}}></div>
+            <div style={{height: "70px"}}></div>
         </nav>
         </>
     )
