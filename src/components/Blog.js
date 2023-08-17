@@ -36,8 +36,11 @@ export default function Blog() {
           {posts.map((post) => (
             <article key={post.slug.current}>
                 <div className="card">
+                <br />
+                <br/>
               <img src={post.mainImage.asset.url} alt={post.title} />
-              <Link to={`/${post.slug.current}`}> Read Post ...</Link>
+              <h4>{post.title}</h4>  
+              <Link to={`/${post.slug.current}`}>Read Post... </Link>    
               <hr/>
               </div>
             </article>

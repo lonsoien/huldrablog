@@ -21,7 +21,7 @@ header {
 aside {
     grid-area: aside;
     text-align: center;
-    max-width: 300px;
+    margin-right: 15px;
 }
 
 main {
@@ -39,6 +39,7 @@ article {
     display: grid;
     grid-column: span 4;
     flex-wrap: wrap;
+    padding: 20px;
 }
 .card {
     padding: 30px;
@@ -48,11 +49,13 @@ hr {
     background-color: #AAB2B5;
     height: 4px;
     border: none;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
+  //  margin: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 810px) {
     body {
+        grid-gap: 0;
     display: grid;
     grid-template-areas:
     "header header"
@@ -63,16 +66,18 @@ hr {
     display: grid-column;
     text-align: center;
     align-items: center;
+    margin-right: 0px;
  }
 
     main {
         display: flex;
         flex-direction: column;
         text-align: center;
-        grid-gap: 1em;
+        align-items: center;
+        grid-gap: 0em;
     }  
     article {
-        margin: 1em;
+        margin: 0em;
         display: flex;
         flex-wrap: wrap;
     }
@@ -85,5 +90,9 @@ hr {
         align-items: center;
         height: 250px;
         width: 250px;
+    }
+
+    .card {
+        padding: 10px;
     }
 }

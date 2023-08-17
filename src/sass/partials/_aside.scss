@@ -10,3 +10,12 @@
  .btn {
     text-align: center;
 }
+
+@media (max-width: 799px) {
+    .selfie {
+        margin: 1px;
+    }
+    .toggle:hover {
+        background-color: black;
+    }
+}

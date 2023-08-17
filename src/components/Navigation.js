@@ -11,8 +11,8 @@ function Navigation() {
                 <span className="bottom-line common"></span>
                 </div>
             <ul className="navigation">
-            <a href="/contact"><p className="hover">Contact</p></a>
-            <a href="/"><p className="hover">Huldrablog</p></a>
+            <a href="/"><p className="hover">Home Huldrablog</p></a>
+            <a href="/Contact"><p className="hover">Contact</p></a>
             </ul>
             </label>
             <br />
