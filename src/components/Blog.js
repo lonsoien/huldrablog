@@ -2,8 +2,8 @@ import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import createClient from "../client"
 import Aside from "./Aside"; 
-import banner from "../images/huldra-banner.png"; 
 import Footer from "./Footer";
+import Header from "./Header";
 
 
 export default function Blog() {
@@ -26,12 +26,7 @@ export default function Blog() {
   return (
     <>
     <body>
-        <header>
-     <div className="banner">
-     <img src={banner} alt="huldrablog banner" />
-     </div>
-     <h1>by Louise</h1>
-     </header>
+        <Header />
        <Aside/>
         <main>
           {posts.map((post) => (

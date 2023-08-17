@@ -1,5 +1,10 @@
+section {
+    text-align: center;
+}
 
-.singlepost-block{
+.blogsection {
+    display: grid;
+    text-align: center;
     align-items: center;
-    justify-content: center;
+    padding: 30px;
 }

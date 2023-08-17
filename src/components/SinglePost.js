@@ -2,6 +2,8 @@ import { useState, useEffect } from "react"
 import { Link, useParams } from "react-router-dom"
 import createClient from "../client"
 import BlockContent from "@sanity/block-content-to-react"
+import Header from "./Header"
+import Aside from "./Aside"
 
 export default function SinglePost() {
   const [singlePost, setSinglePost] = useState([])
@@ -26,14 +28,15 @@ export default function SinglePost() {
       {isLoading ? (
         <h1 >  Loading...</h1>
       ) : (
-        <section>
+        <body>
+            <Header /> 
+            <Aside />
+        <main>
           <h1>{singlePost.title}</h1>
           {singlePost.mainImage && singlePost.mainImage.asset && (
-            <img
-              src={singlePost.mainImage.asset.url}
-              alt={singlePost.title}
-              title={singlePost.title}
-              className=""/>
+            <img src={singlePost.mainImage.asset.url} alt={singlePost.title}
+              title={singlePost.title} style={{width: "600px", height: "600px"}}
+              className="blogsection"/>
           )}
           <p>By Louise Bellingmo</p>
 
@@ -48,7 +51,8 @@ export default function SinglePost() {
           <button className="blog-btn">
             <Link to="/"> Back to Blog articles </Link>
           </button>
-        </section>
+        </main>
+        </body>
       )}
     </>
   )
