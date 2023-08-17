@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -7,11 +7,11 @@ body {
     display: grid;
     // grid-template-columns: repeat(2, fit-content(12em) fit-content(10em));
     // grid-template-columns: 12em 1fr;
-    grid-gap: 1em;
+ //   grid-gap: 1em;
     grid-template-areas:
     "header aside"
     "main aside"
-    "main aside";
+    "footer footer";
 }
 
 header {
@@ -27,6 +27,10 @@ aside {
 main {
     grid-area: main;
   }
+
+footer {
+    grid-area: footer; 
+}
 
 main {
     display: grid;

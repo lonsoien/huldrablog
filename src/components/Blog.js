@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import createClient from "../client"
 import Aside from "./Aside"; 
 import banner from "../images/huldra-banner.png"; 
+import Footer from "./Footer";
 
 
 export default function Blog() {
@@ -46,7 +47,10 @@ export default function Blog() {
             </article>
           ))}
       </main>
+      <div style={{height: "150px"}}></div>
+      <br/>
       </body>
+      <Footer />
     </>
   )
 }
