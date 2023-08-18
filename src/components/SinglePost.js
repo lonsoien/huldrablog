@@ -4,6 +4,7 @@ import createClient from "../client"
 import BlockContent from "@sanity/block-content-to-react"
 import Header from "./Header"
 import Aside from "./Aside"
+import Footer from "./Footer"
 
 export default function SinglePost() {
   const [singlePost, setSinglePost] = useState([])
@@ -53,6 +54,7 @@ export default function SinglePost() {
         </main>
         </body>
       )}
+      <Footer/>
     </>
   )
 }
