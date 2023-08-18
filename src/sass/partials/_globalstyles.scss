@@ -36,7 +36,7 @@ main {
     display: grid;
     align-content: center;
     grid-template-columns: repeat(8, 8vw);
-    grid-gap: 1em;
+   // grid-gap: 1em;
 }
 
 article {
@@ -45,6 +45,7 @@ article {
     flex-wrap: wrap;
     padding: 20px;
 }
+
 .card {
     padding: 30px;
 }

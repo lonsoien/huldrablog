@@ -39,7 +39,7 @@ export default function SinglePost() {
             <img src={singlePost.mainImage.asset.url} alt={singlePost.title}
               title={singlePost.title} className="blogsection" />
           )}
-          <div style={{padding: "20px"}}>
+          <div>
           <BlockContent
               blocks={singlePost.body}
               projectId="5w9wd3qu"
