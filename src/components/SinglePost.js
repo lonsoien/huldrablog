@@ -37,24 +37,24 @@ export default function SinglePost() {
           <h4>{singlePost.title}</h4>
           {singlePost.mainImage && singlePost.mainImage.asset && (
             <img src={singlePost.mainImage.asset.url} alt={singlePost.title}
-              title={singlePost.title} className="blogsection"/>
+              title={singlePost.title} className="blogsection" />
           )}
           <div style={{padding: "20px"}}>
-            <BlockContent
+          <BlockContent
               blocks={singlePost.body}
               projectId="5w9wd3qu"
               dataset="production"
-            />
-             <br/>
+              />
             <button className="singelpostbutton">
             <Link to="/">Back to Blog Posts</Link>
           </button>
-          </div>
+            </div>
+             <br/>
           </article>
         </main>
         </body>
       )}
-      <Footer/>
+       <Footer/>
     </>
   )
 }

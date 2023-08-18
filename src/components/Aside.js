@@ -11,10 +11,13 @@ export default function Aside() {
         <img src={selfie} alt="selfie louisebellingmo drawing" className="selfie"></img>
         <br/>
         <button className="btn">About</button>
-        <h2>I am Louise Bellingmo</h2>
-        <p>This is my blog about lifestyle and my own pictures from nature.</p>
+        <h2>Jeg er Louise Bellingmo</h2>
+        <p>Dette er min nettside hvor jeg deler primært livsstil artikkler, bilder og opplevelser 
+            fra mine turer i naturen.</p>
         <br/>
-        <p>This is my blog and more info will be added here in this text. </p>
+        <p>Her håper jeg å inspirere og dele med felles interesserte i det å finne sin vei i livet. 
+            Være åpen om at ikke alt trenger å være perfekt heletiden, men at det er rom for å gjøre feil,
+            gruble over ting, lære å utvikle seg selv på veien ettersom vi lever.</p>
         <br/>
         <h3>Instagram</h3>
         <hr/>

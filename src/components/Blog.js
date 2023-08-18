@@ -36,7 +36,9 @@ export default function Blog() {
                 <br/>
               <img src={post.mainImage.asset.url} alt={post.title} />
               <h4>{post.title}</h4>  
-              <Link to={`/${post.slug.current}`}>Read Post... </Link>    
+              <button className="singelpostbutton">
+              <Link to={`/${post.slug.current}`}>Read Post... </Link> 
+              </button>   
               <hr/>
               </div>
             </article>
