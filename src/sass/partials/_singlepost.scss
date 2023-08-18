@@ -1,10 +1,22 @@
-section {
+
+.article-singelpost {
+    grid-column: span 8;
+    padding: 20px;
     text-align: center;
 }
 
 .blogsection {
-    display: grid;
-    text-align: center;
-    align-items: center;
-    padding: 30px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.singelpostbutton a {
+    font-family: 'Aboreto', cursive;
+    font-size: 15px;
+}
+
+button .singelpostbutton {
+    width: 180px;
 }

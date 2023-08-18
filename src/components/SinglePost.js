@@ -32,25 +32,23 @@ export default function SinglePost() {
             <Header /> 
             <Aside />
         <main>
-          <h1>{singlePost.title}</h1>
+            <article className="article-singelpost">
+          <h4>{singlePost.title}</h4>
           {singlePost.mainImage && singlePost.mainImage.asset && (
             <img src={singlePost.mainImage.asset.url} alt={singlePost.title}
-              title={singlePost.title} style={{width: "600px", height: "600px"}}
-              className="blogsection"/>
+              title={singlePost.title} className="blogsection"/>
           )}
-          <p>By Louise Bellingmo</p>
-
-          <div className="singlepost-block">
+          <div>
             <BlockContent
               blocks={singlePost.body}
               projectId="5w9wd3qu"
               dataset="production"
             />
-          </div>
-
-          <button className="blog-btn">
-            <Link to="/"> Back to Blog articles </Link>
+            <button className="singelpostbutton">
+            <Link to="/">Back to Blog Posts</Link>
           </button>
+          </div>
+          </article>
         </main>
         </body>
       )}
