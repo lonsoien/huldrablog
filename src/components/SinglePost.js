@@ -38,12 +38,13 @@ export default function SinglePost() {
             <img src={singlePost.mainImage.asset.url} alt={singlePost.title}
               title={singlePost.title} className="blogsection"/>
           )}
-          <div>
+          <div style={{padding: "20px"}}>
             <BlockContent
               blocks={singlePost.body}
               projectId="5w9wd3qu"
               dataset="production"
             />
+             <br/>
             <button className="singelpostbutton">
             <Link to="/">Back to Blog Posts</Link>
           </button>
