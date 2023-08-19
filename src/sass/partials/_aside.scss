@@ -4,7 +4,7 @@
     width: 200px;
     height: 220px; 
     border-radius: 50%;
-    margin: 20px;
+    margin-top: 20px;
 }
 
  .btn a {
@@ -12,13 +12,3 @@
     text-align: center;
     font-size: 15px;
 }
-
-@media (max-width: 799px) {
-    .selfie {
-        margin: 1px;
-    }
-}
-
-//  .toggle:hover {
-   //     background-color: black;
-   // }

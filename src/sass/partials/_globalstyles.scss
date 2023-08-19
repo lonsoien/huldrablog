@@ -22,7 +22,7 @@ header {
 aside {
     grid-area: aside;
     text-align: center;
-    margin-right: 15px;
+    padding: 20px;
 }
 
 main {
@@ -42,7 +42,6 @@ main {
     display: grid;
     align-content: center;
     grid-template-columns: repeat(8, 8vw);
-   // grid-gap: 1em;
 }
 
 article {
@@ -65,7 +64,6 @@ hr {
 
 @media (max-width: 810px) {
     body {
-        grid-gap: 0;
     display: grid;
     grid-template-areas:
     "header header"
@@ -76,18 +74,21 @@ hr {
     display: grid-column;
     text-align: center;
     align-items: center;
-    padding: 15px;
+    margin: 10px;
  }
+
+ section {
+   width: 100%;
+   height: 100%;
+   }
 
     main {
         display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
-        grid-gap: 0em;
     }  
     article {
-        margin: 0em;
         display: flex;
         flex-wrap: wrap;
     }
@@ -101,7 +102,6 @@ hr {
         height: 250px;
         width: 250px;
     }
-
     .card {
         padding: 10px;
     }
