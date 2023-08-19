@@ -23,7 +23,9 @@ function Aside() {
         <br/>
         <h3>Instagram</h3>
         <hr/>
+        <div style={{paddingLeft: "60px"}}>
         <div class="elfsight-app-7a3f9b86-7186-475a-9609-0e253799fb62"></div>
+        </div>
         <br/>
         <button className="btn">
         <Link to="/contact">Contact</Link>
