@@ -1,6 +1,6 @@
 import selfie from "../images/tegning-louie.JPG";
-import loreen from "../images/loreen.jpeg";
 import Navigation from "./Navigation";
+import { Link } from "react-router-dom";
 
 
 export default function Aside() {
@@ -21,12 +21,16 @@ export default function Aside() {
         <br/>
         <h3>Instagram</h3>
         <hr/>
-        <h3>images from instagram here</h3>
-        <img src={loreen} alt="loreen tattoo" style={{width: "250px", height: "200px"}}></img>
+        <div class="elfsight-app-7a3f9b86-7186-475a-9609-0e253799fb62"></div>
         <br/>
-        <button className="btn">Contact</button>
+        <button className="btn">
+        <Link to="/contact">Contact</Link>
+        </button>
         <br/>
-        <h3>Link to Portfolio</h3>
+        <h3>
+        <Link to="https://louisebellingmo-portfolio.netlify.app ">Link to Portfolio</Link>
+        </h3>
+        
         <p>A short video imported here</p>
         <br/>
         </aside>
