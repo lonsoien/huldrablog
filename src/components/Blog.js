@@ -32,7 +32,7 @@ export default function Blog() {
           {posts.map((post) => (
             <article key={post.slug.current}>
                 <div className="card">
-                <br />
+                
               <img src={post.mainImage.asset.url} alt={post.title} />
               <h4>{post.title}</h4>  
               <button className="singelpostbutton">

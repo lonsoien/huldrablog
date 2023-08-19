@@ -8,6 +8,7 @@ function Aside() {
     return (
         <>
         <aside>
+            <br/>
         <img src={selfie} alt="selfie louisebellingmo drawing" className="selfie"></img>
         <br/>
         <button className="btn">About</button>
