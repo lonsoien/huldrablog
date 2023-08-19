@@ -24,7 +24,7 @@ function Aside() {
         <div class="elfsight-app-7a3f9b86-7186-475a-9609-0e253799fb62"></div>
         <br/>
         <button className="btn">
-        <Link to="/contact">Contact</Link>
+        <Link to="https://louisebellingmo-portfolio.netlify.app">Contact</Link>
         </button>
         <p>Ta gjerne kontakt på insta via privat DM´s eller på huldrablog@gmail.com!</p>
         <br/>
