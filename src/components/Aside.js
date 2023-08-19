@@ -35,6 +35,9 @@ function Aside() {
         <img src={Tiktok} alt="tiktokicon" style={{width: "90px", height:"90px"}}></img>
         <img src={Facebook} alt="tiktokicon" style={{width: "90px", height:"90px"}}></img>
         <br/>
+        <button className="singelpostbutton">
+            <Link to="/">Home</Link>
+          </button>
         </aside>
         </>
     )

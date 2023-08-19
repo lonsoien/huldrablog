@@ -67,9 +67,12 @@ hr {
     display: grid;
     grid-template-areas:
     "header header"
+    "main main"
+    "section section"
     "aside aside"
-    "main main";
+    "footer footer"
     }
+
     aside {
     display: grid-column;
     text-align: center;
