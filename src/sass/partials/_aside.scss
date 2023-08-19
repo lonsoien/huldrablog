@@ -7,8 +7,14 @@
     margin-top: 20px;
 }
 
- .btn a {
+.btn a {
     font-family: 'Aboreto', cursive;
     text-align: center;
     font-size: 15px;
+}
+
+@media (max-width: 810px) {
+    .selfie {
+        margin-top: -100px;
+    }
 }
