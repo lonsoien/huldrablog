@@ -76,7 +76,7 @@ hr {
     display: grid-column;
     text-align: center;
     align-items: center;
-    margin-right: 0px;
+    padding: 15px;
  }
 
     main {
@@ -104,8 +104,5 @@ hr {
 
     .card {
         padding: 10px;
-    }
-    span {
-        text-align: center;
     }
 }

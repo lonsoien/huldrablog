@@ -1,5 +1,4 @@
 import selfie from "../images/tegning-louie.JPG";
-import Navigation from "./Navigation";
 import { Link } from "react-router-dom";
 import Tiktok from '../images/icons8-tiktok-200.png';
 import Facebook from '../images/icons8-facebook-f-200.png';
@@ -9,7 +8,6 @@ function Aside() {
     return (
         <>
         <aside>
-        <Navigation />
         <img src={selfie} alt="selfie louisebellingmo drawing" className="selfie"></img>
         <br/>
         <button className="btn">About</button>
