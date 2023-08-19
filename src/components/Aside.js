@@ -1,9 +1,11 @@
 import selfie from "../images/tegning-louie.JPG";
 import Navigation from "./Navigation";
 import { Link } from "react-router-dom";
+import Tiktok from '../images/icons8-tiktok-200.png';
+import Facebook from '../images/icons8-facebook-f-200.png';
 
 
-export default function Aside() {
+function Aside() {
     return (
         <>
         <aside>
@@ -26,14 +28,18 @@ export default function Aside() {
         <button className="btn">
         <Link to="/contact">Contact</Link>
         </button>
+        <p>Ta gjerne kontakt på insta via privat DM´s eller på huldrablog@gmail.com!</p>
         <br/>
         <h3>
         <Link to="https://louisebellingmo-portfolio.netlify.app ">Link to Portfolio</Link>
         </h3>
-        
-        <p>A short video imported here</p>
+        <p>A short video coming here...</p>
+        <img src={Tiktok} alt="tiktokicon" style={{width: "90px", height:"90px"}}></img>
+        <img src={Facebook} alt="tiktokicon" style={{width: "90px", height:"90px"}}></img>
         <br/>
         </aside>
         </>
     )
 }
+
+export default Aside;
