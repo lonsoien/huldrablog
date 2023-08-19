@@ -1,18 +1,13 @@
 
+.containerpost {
+    display: flex;
+    padding: 20px;
+ }
 
-.article-singelpost {
-    width: 100%;
-    padding-left: 10px;
-    text-align: center;
-    align-items: center;
-}
-
-.blogsection {
-    align-items: center;
-    text-align: center;
- //   height: 500px;
-  //  width: 100%;
-}
+ .postimg {
+    width: 600px;
+    height: 600px;
+ }
 
 .singelpostbutton a {
     font-family: 'Aboreto', cursive;

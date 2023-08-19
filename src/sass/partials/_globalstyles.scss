@@ -11,6 +11,7 @@ body {
     grid-template-areas:
     "header aside"
     "main aside"
+    "section aside"
     "footer footer";
 }
 
@@ -26,6 +27,11 @@ aside {
 
 main {
     grid-area: main;
+  }
+
+section {
+    grid-area: section;
+    text-align: center;
   }
 
 footer {

@@ -32,12 +32,12 @@ export default function SinglePost() {
         <body>
             <Header /> 
             <Aside />
-        <main>
-            <article className="article-singelpost">
+            <main className="containerpost">
+            <section>
           <h4>{singlePost.title}</h4>
           {singlePost.mainImage && singlePost.mainImage.asset && (
             <img src={singlePost.mainImage.asset.url} alt={singlePost.title}
-              title={singlePost.title} className="blogsection" />
+              title={singlePost.title} className="postimg" />
           )}
           <div>
           <BlockContent
@@ -50,8 +50,8 @@ export default function SinglePost() {
           </button>
             </div>
              <br/>
-          </article>
-        </main>
+          </section>
+          </main>
         </body>
       )}
        <Footer/>
