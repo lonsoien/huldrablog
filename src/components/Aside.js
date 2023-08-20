@@ -13,12 +13,15 @@ function Aside() {
         <br/>
         <button className="btn">About</button>
         <h2>Jeg er Louise Bellingmo</h2>
-        <p>Dette er min nettside hvor jeg deler primært livsstil artikkler, bilder og opplevelser 
-            fra mine turer i naturen.</p>
+        <p>Dette er min egen-utviklet blogg hvor jeg vil primært dele livsstil artikler, 
+        mine opplevelser og bilder i fra naturen.</p>
         <br/>
-        <p>Her håper jeg å inspirere og dele med felles interesserte i det å finne sin vei i livet. 
-            Være åpen om at ikke alt trenger å være perfekt heletiden, men at det er rom for å gjøre feil,
-            gruble over ting, lære å utvikle seg selv på veien ettersom vi lever.</p>
+        <p>Jeg håper på å inspirere og dele med felles interesserte mindfullness og natur-opplevelser. 
+            I flere år har jeg vært avgengig av å gå på tur i skogen, meditere og finne ro i ute naturen. 
+            Lenge har jeg hatt ønske om å skrive en egen livsstil blogg der jeg kan dele mine opplevelser, 
+            være åpen og dele min lære i det å utvikle meg på veien.</p>
+            <p>Det å få utrykke meg, skape og være kreativ ligger i min sjel - Så velkommen til Huldrablog!
+            </p>
         <br/>
         <h3>Instagram</h3>
         <hr/>
