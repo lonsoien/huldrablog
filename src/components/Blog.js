@@ -31,8 +31,7 @@ export default function Blog() {
         <main>
           {posts.map((post) => (
             <article key={post.slug.current}>
-                <div className="card">
-                
+                <div className="card">       
               <img src={post.mainImage.asset.url} alt={post.title} />
               <h4>{post.title}</h4>  
               <button className="singelpostbutton">
@@ -44,7 +43,6 @@ export default function Blog() {
           ))}
       </main>
       <div style={{height: "150px"}}></div>
-      <br/>
       </body>
       <Footer />
     </>
