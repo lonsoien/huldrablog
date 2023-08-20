@@ -20,7 +20,7 @@ function Aside() {
             I flere år har jeg vært avgengig av å gå på tur i skogen, meditere og finne ro i ute naturen. 
             Lenge har jeg hatt ønske om å skrive en egen livsstil blogg der jeg kan dele mine opplevelser, 
             være åpen og dele min lære i det å utvikle meg på veien.</p>
-            <p>Det å få utrykke meg, skape og være kreativ ligger i min sjel - Så velkommen til Huldrablog!
+            <p>Det å få utrykke meg, skape og være kreativ ligger i mitt DNA - Så velkommen til Huldrablog!
             </p>
         <br/>
         <h3>Instagram</h3>
