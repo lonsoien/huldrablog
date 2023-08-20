@@ -31,7 +31,7 @@ function Aside() {
         <button className="btn">
         <Link to="https://louisebellingmo-portfolio.netlify.app/contact">Contact</Link>
         </button>
-        <p>Ta gjerne kontakt på insta via privat DM´s eller på huldrablog@gmail.com!</p>
+        <p>Ta gjerne kontakt på Insta via DM´s eller på postbellingmo@gmail.com</p>
         <br/>
         <h3>
         <Link to="https://louisebellingmo-portfolio.netlify.app ">Link to Portfolio</Link>
