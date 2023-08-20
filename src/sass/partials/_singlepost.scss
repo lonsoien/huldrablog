@@ -5,8 +5,8 @@
  }
 
  .postimg {
-    width: 590px;
-    height: 620px;
+    width: 500px;
+    height: 600px;
  }
 
 .singelpostbutton a {
@@ -22,4 +22,12 @@ button .singelpostbutton {
     margin: 22px;
     font-family: 'Aboreto', cursive;
     font-size: 16px;
+}
+
+@media (max-width: 500px) {
+    .postimg {
+        width: 350px;
+        height: 350px;
+     }
+   
 }
