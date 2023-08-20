@@ -34,3 +34,13 @@ img {
     height: 100%;
     margin: 0;
 }
+
+@media (max-width: 450px) {
+    .banner img {
+        width: 100%;
+    }
+    img {
+        margin: 1px;
+        width: 100%;
+    }
+}
