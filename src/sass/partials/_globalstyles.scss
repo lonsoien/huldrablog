@@ -80,33 +80,37 @@ hr {
     margin: 10px;
  }
 
-    main {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }  
-    article {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 1px;
-    }
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+}
 
 .selfie {
     margin-top: 0px;
 }
-    button {
-        align-items: center;
-        text-align: center;
-    }
-    img {
-        margin: 5px;
-        text-align: center;
-        align-items: center;
-        height: 250px;
-        width: 250px;
-    }
-    .card {
-        padding: 1px;
-    }
+
+button {
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+}
+    
+.card {
+    padding: 1px;
+ }
 }
