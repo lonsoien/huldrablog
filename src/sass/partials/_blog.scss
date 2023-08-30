@@ -23,10 +23,13 @@ a:hover {
     text-decoration: underline;
 }
 
+// Edit blogpost img home - width og heigth fordi tar man bort height blir alle bilder ujevne
+ // - om de ikke er bare iphone images evt. Men andre bilder blir ikke "same" height //
+
 img {
-    margin: 10px;
-    height: 70%;
+    margin: 6px;
     width: 100%;
+    height: 80%;
 }
 
 .banner img {

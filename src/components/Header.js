@@ -1,4 +1,6 @@
-import banner from "../images/lou-pinetree-banner.jpg"; 
+import banner from "../images/lou-pine-banner&text.png"; 
+//import pinetree from "../images/loupine-text.png"; 
+
 
 export default function Header() {
     return (
@@ -7,11 +9,6 @@ export default function Header() {
      <div className="banner">
      <img src={banner} alt="huldrablog banner" />
      <h1>by Louise</h1>
-     <div className="huldrablog">Huldrablog</div>
-     <div className="every">EVERY</div>
-     <div className="picture">PICTURE</div>
-     <div className="hasa">HAS A</div>
-     <div className="story">STORY</div>
      </div>
      </header>
         </>
