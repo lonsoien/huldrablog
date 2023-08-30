@@ -6,13 +6,13 @@ export default function Header() {
         <header>
      <div className="banner">
      <img src={banner} alt="huldrablog banner" />
+     <h1>by Louise</h1>
      <div className="huldrablog">Huldrablog</div>
      <div className="every">EVERY</div>
      <div className="picture">PICTURE</div>
      <div className="hasa">HAS A</div>
      <div className="story">STORY</div>
      </div>
-     <h1>by Louise</h1>
      </header>
         </>
     )

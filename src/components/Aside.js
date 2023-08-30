@@ -11,7 +11,7 @@ function Aside() {
             <br/>
         <img src={selfie} alt="selfie louisebellingmo drawing" className="selfie"></img>
         <br/>
-        <button className="btn">About</button>
+        <button className="about-btn">About</button>
         <div className="aside-text">
         <h2>Jeg er Louise Bellingmo</h2>
         <p>Dette er min egen-utviklet blogg hvor jeg vil primært dele livsstil artikler, 
