@@ -6,6 +6,7 @@ export default function Header() {
         <header>
      <div className="banner">
      <img src={banner} alt="huldrablog banner" />
+     <div className="huldrablog">Huldrablog</div>
      </div>
      <h1>by Louise</h1>
      </header>
