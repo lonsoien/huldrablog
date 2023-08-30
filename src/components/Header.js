@@ -1,4 +1,4 @@
-import banner from "../images/huldra-banner.png"; 
+import banner from "../images/lou-pinetree-banner.jpg"; 
 
 export default function Header() {
     return (
