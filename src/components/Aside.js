@@ -13,14 +13,13 @@ function Aside() {
         <br/>
         <button className="about-btn">About</button>
         <div className="aside-text">
-        <h2>Jeg er Louise Bellingmo</h2>
+        <h2>Jeg heter Louise</h2>
         <p>Dette er min egen-utviklet blogg hvor jeg vil primært dele livsstil artikler, 
         mine opplevelser og bilder i fra naturen.</p>
         <p>Jeg håper på å inspirere og dele med felles interesserte mindfullness og natur-opplevelser. 
             I flere år har jeg vært avgengig av å gå på tur i skogen, meditere og finne ro i ute naturen. 
-            Lenge har jeg hatt ønske om å skrive en egen livsstil blogg der jeg kan dele mine opplevelser, 
-            være åpen og dele min lære i det å utvikle meg på veien.</p>
-            <p>Det å få utrykke meg, skape og være kreativ ligger i mitt DNA - Så velkommen til Huldrablog!
+            Lenge har jeg hatt ønske om å skrive en egen livsstil blogg der jeg kan dele mine opplevelser.</p>
+            <p>Det å få utrykke meg, skape og være kreativ med en dose grantrær og fjell i ny og ned ligger i mitt DNA - Så velkommen til Huldrablog!
             </p>
             </div>
         <br/>
