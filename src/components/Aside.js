@@ -33,7 +33,7 @@ function Aside() {
         <h3>
         <Link to="https://louisebellingmo-portfolio.netlify.app ">Link to Portfolio</Link>
         </h3>
-        <p>A short video coming here...</p>
+        
         <img src={Tiktok} alt="tiktokicon" style={{width: "90px", height:"90px"}}></img>
         <img src={Facebook} alt="tiktokicon" style={{width: "90px", height:"90px"}}></img>
         <br/>
