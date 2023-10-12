@@ -13,22 +13,16 @@ function Aside() {
         <br/>
         <button className="about-btn">About</button>
         <div className="aside-text">
-        <h2>Jeg heter Louise</h2>
-        <p>Dette er min egen-utviklet blogg hvor jeg vil primært dele livsstil artikler, 
-        mine opplevelser og bilder i fra naturen.</p>
-        <p>Jeg håper på å inspirere og dele med felles interesserte mindfullness og natur-opplevelser. 
-            I flere år har jeg vært avgengig av å gå på tur i skogen, meditere og finne ro ute i naturen. 
-            Lenge har jeg hatt ønske om å skrive en livsstils-blogg der jeg kan dele mine opplevelser.</p>
-            <p>Det å få utrykke meg, skape og være kreativ med en dose grantrær og fjell i ny og ned ligger i mitt DNA - Så velkommen til Huldrablog!
-            </p>
-            </div>
+        <h2>My name is</h2>
+        <p>This is my blog about "your title here". Here you will have the delight to read all my posts!</p>
+        </div>
         <br/>
         <h3>Instagram</h3>
         <hr/>
-        <div class="elfsight-app-7a3f9b86-7186-475a-9609-0e253799fb62"></div>
         <br/>
+        <p>Instagram account connected here</p>
         <button className="btn">Contact</button>
-        <p>Ta gjerne kontakt på Insta via DM´s eller på postbellingmo@gmail.com</p>
+        <p>Please contact me on postbellingmo@gmail.com for this design</p>
         <br/>
         <h3>
         <Link to="https://louisebellingmo-portfolio.netlify.app ">Link to Portfolio</Link>
