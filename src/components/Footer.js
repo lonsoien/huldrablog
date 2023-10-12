@@ -7,7 +7,7 @@ export default function Footer() {
             <h5>Huldrablog is designed and developed by Bellingmo Webdesign
                 <br/>
                 <br/>
-            <a href="/www.bellingmowebdesign.com" style={{color: "white", justifyContent: "center"}}>
+            <a href="https://bellingmowebdesign.com" style={{color: "white", justifyContent: "center"}}>
                 Visit Bellingmo Webdesign</a>
             </h5>
             
